@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanika Medical Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet"> <!-- Include font -->
+    <link rel="stylesheet" href="Data.css"> <!-- Link to the external CSS file -->
+    <link rel="icon" href="download.png" type="image/png">
+</head>
+<body>
+    <h1>Kanika Medical Center</h1>
+    <h2>আপনার ঔষধ অর্ডার করুন</h2>
+    <h3><span class="plus-symbol">+</span></h3>
+    <div class="container">
+        <form id="userForm">
+            <!-- Name Field -->
+            <div class="input-group">
+                <label for="name" style="font-size: larger;">নাম: আপনার নাম লিখুন</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <!-- Phone Number Field -->
+            <div class="input-group">
+                <label for="phone"style="font-size: larger;">ফোন নম্বর: আপনার ফোন নম্বর লিখুন</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+            <!-- Medicine Name Field -->
+            <div class="input-group">
+                <label for="medicine" style="font-size: larger;">ওষুধের নাম: আপনি যে ওষুধ চান</label>
+                <input type="text" id="medicine" name="medicine" required>
+            </div>
+
+            <!-- Address Field -->
+            <div class="input-group">
+                <label for="address"style="font-size: larger;">ঠিকানা: আপনার ঠিকানা লিখুন</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+
+            <!-- Date Field -->
+            <div class="input-group">
+                <label for="date"style="font-size: larger;">তারিখ: যে দিন আপনি ওষুধ চান</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="Data.js" defer></script> <!-- Link to external JS file -->
+</body>
+</html>
