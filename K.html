@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanika Medical Center</title>
+    <link rel="icon" href="download.png" type="image/png">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white; /* Blue background */
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        #loadingText {
+            font-size: 100px;
+            color: rgb(2, 2, 44);
+            animation: blink 4s ;
+        }
+
+        @keyframes blink {
+            0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="loadingText"><p>K</p></div>
+    <div id="loadingText" style="font-size: medium; text-align: center;"><p1>Kanika Medical Center</p1></div>
+    <script>
+        setTimeout(function() {
+            window.location.href = "Data.html";
+        }, 5000);
+    </script>
+</body>
+</html>
