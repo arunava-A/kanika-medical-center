@@ -17,21 +17,22 @@
             font-family: Arial, sans-serif;
         }
 
-        #loadingText {
-            font-size: 100px;
-            color: rgb(2, 2, 44);
-            animation: blink 4s ;
-        }
+      #loadingText {
+    font-size: 100px;
+    color: rgb(2, 2, 44);
+    animation: blink 1.5s steps(5, start) infinite;
+}
 
-        @keyframes blink {
-            0% {
+
+     @keyframes blink {
+    0% {
         opacity: 0;
     }
     50% {
         opacity: 1;
     }
     100% {
-        opacity: 1;
+        opacity: 0;
     }
 }
     </style>
