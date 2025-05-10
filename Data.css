@@ -127,13 +127,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         top: 10px;
     }
 
     h2 {
-        font-size: 1.2rem;
-        margin-top: 5px;
+        font-size: 0.988rem;
+        margin-top: 52px;
     }
 
     .container {
